@@ -1,0 +1,32 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(101, 97, 97);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#container {
+    width: 100vw;
+    color:rgb(216, 186, 159);
+    display: grid ;
+}
+#Box{
+    width: 60%;
+   
+    border:  3px solid sandybrown; 
+    justify-self: center;
+}
+.cabecera{
+    display: flex;
+    align-items: center;
+
+    font-weight: bold;
+    height: 30px;
+    background-color: antiquewhite;
+    color: rgb(66, 7, 7);
+}
+.cabecera p{
+    padding-right: 10px;
+    margin: 2px;
+}
